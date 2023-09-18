@@ -1,5 +1,17 @@
 Comandos importantes no Git:
 
+git init        => inicializa um novo repositório
+git add .                                       => adiciona os arquivos atuais ao próximo commit
+git status                                      => verificar o status atual dos repositórios git
+git commit -m                                   => cria um novo commit com uma mensagem
+git push                                        => envia as atualizações para a nuvem na branch atualmente ativa
+git branch                                      => permite listar e ver qual branch está ativa atualmente
+git checkout <branch>                           => permite mudar para uma nova branch
+git checkout -b <branchDeOrigem> <novaBranch>   => permite mudar e criar uma nova branch com base em outra
+git merge <branchAreceberMerge>                 => permite fazer o merge da branch ativa com outra branch
+git pull                                        => atualiza a branch atualmente ativa
+
+
 Comando para clonar o repositório
 - git clone <aUrlDoRepositorio>
 
@@ -25,5 +37,3 @@ Comando para realizar um merge (unir) uma branch em outra.
 
 Comando para criar uma nova branch copiando as informações de uma branch existente.
 - git checkout -b <NomeDaNovaBranch> <BranchModelo>
-
-

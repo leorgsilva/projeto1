@@ -21,5 +21,9 @@ Comando para verificar se existe alguma nova informacão e atualiza seu reposít
 - git pull
 
 Comando para realizar um merge (unir) uma branch em outra.
+- git merge 
+
+Comando para criar uma nova branch copiando as informações de uma branch existente.
+- git checkout -b <NomeDaNovaBranch> <BranchModelo>
 
 

@@ -1,6 +1,6 @@
 Comandos importantes no Git:
 
-git init        => inicializa um novo repositório
+git init                                        => inicializa um novo repositório
 git add .                                       => adiciona os arquivos atuais ao próximo commit
 git status                                      => verificar o status atual dos repositórios git
 git commit -m                                   => cria um novo commit com uma mensagem

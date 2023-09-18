@@ -1,0 +1,25 @@
+Comandos importantes no Git:
+
+Comando para clonar o repositório
+- git clone <aUrlDoRepositorio>
+
+Comando para verificar o log. Se há commits 
+- git log
+
+Comando para criar um commit
+- git add <nomeDoArquivo> ou git add .
+- git commit -m "Descrição do que será feito"
+
+Comando para verificar se existem alterações na pasta ou arquivo de trabalho.
+- git status
+
+Comando para verificar em qual branch vc está e para alternar entre as branchs.
+- git branch
+- git branch <nomeDaBranch>
+
+Comando para verificar se existe alguma nova informacão e atualiza seu reposítório local.
+- git pull
+
+Comando para realizar um merge (unir) uma branch em outra.
+
+

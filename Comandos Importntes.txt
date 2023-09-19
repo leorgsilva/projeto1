@@ -10,6 +10,9 @@ git checkout <branch>                           => permite mudar para uma nova b
 git checkout -b <branchDeOrigem> <novaBranch>   => permite mudar e criar uma nova branch com base em outra
 git merge <branchAreceberMerge>                 => permite fazer o merge da branch ativa com outra branch
 git pull                                        => atualiza a branch atualmente ativa
+git config --global user.name <SeuNome>		=> adiciona seu nome como owner de toda mudança que vc fizer
+git config --global user.email <seuEmail>	=> adiciona seu e-mail como informação
+Git log 					=> mostra as versões que já foram commitadas na branch atual
 
 
 Comando para clonar o repositório
